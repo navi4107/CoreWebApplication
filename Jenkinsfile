@@ -4,7 +4,7 @@ stages {
 stage ('Checkout') {
  
             steps {
-                  git 'https://github.com/avinash4107/webapplic.git'
+                  git 'https://github.com/navi4107/CoreWebApplication.git'
             }
 }
 stage ('Restore PACKAGES') {  
